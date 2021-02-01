@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+python-multipart = "*"
+tortoise-orm = {extras = ["asyncpg"], version = "*"}
+pyjwt = "*"
+uvicorn = "*"
+passlib = "*"
+bcrypt = "*"
+
+[dev-packages]
+autopep8 = "*"
+
+[requires]
+python_version = "3.8"
